@@ -3,50 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <title>Frontend Mentor | Order summary card</title>
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main-section">
-      <div class="main-img">
-        <img src="/images/illustration-hero.svg" alt="img is hidden" />
-      </div>
-      <div class="box">
-        <h2>Order Summary</h2>
-        <p>
-          You can now listen to milions of songs, audiobooks and podcasts on any
-          device anywhere you like!
-        </p>
-
-        <div class="price-section">
-          <img
-            src="/images/icon-music.svg"
-            alt="img not found"
-            class="music-icon"
-          />
-          <div class="price">
-            <h4>Annual Plan</h4>
-            <span>$59.99/year</span>
-          </div>
-          <a class="changer" href="#">Change</a>
+    <section>
+      <div class="first">
+        <div class="box">
+          <img src="/images/icon-sedans.svg" alt="not found" />
+          <h2>Sedans</h2>
+          <p>
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+          <button>Learn More</button>
         </div>
       </div>
-      <div class="pay-section">
-        <button class="pay-btn">Preceed to Payment</button>
-        <span class="cancel-btn">Cancel Order</span>
+      <div class="second">
+        <div class="box">
+          <img src="/images/icon-suvs.svg" alt="not found" />
+          <h2>SUVS</h2>
+          <p>
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+          <button>Learn More</button>
+        </div>
       </div>
-    </div>
+      <div class="third">
+        <div class="box">
+          <img src="/images/icon-luxury.svg" alt="not found" />
+          <h2>LUXURY</h2>
+
+          <p>
+            Choose a sedan for its affordability and excellent fuel economy.
+            Ideal for cruising in the city or on your next road trip.
+          </p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor </a
-      >. Coded by <a class="EMAD" href="https://Emadcode.com"> @Emadcode </a>.
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
     </div>
   </body>
 </html>
